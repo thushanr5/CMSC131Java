@@ -1,0 +1,25 @@
+String methods:
+
+1) .length() -> Returns length of a String
+
+2) .charAt() ->Returns the character of a String at a certain integer position
+
+3) .substring(start,end) ->Returns a portion of the string starting from the start till the end-1
+
+4) .substring(start) ->Returns a string starting from the start to the last element of the string ** different from end-1 
+example: "cookie".substring(1) ->Returns ookie 
+
+5) .compareTo() ->Lexiographic comparison between two Strings: s.compareTo(t) returns -1 because s is one less in the alphabet than t 
+If equal then returns 0 e.g. s.compareTo(s)
+
+6) .toUpperCase() ->Returns a String with all chars capitalized
+
+7) .toLowerCase() ->Returns a String with all chars lowercased
+
+8) .toCharArray() ->Returns a charArray which the strings are turned into individuals chars and into an array
+
+9) .indexOf() ->Returns the first found position of character(s) in a given String 
+
+10) .trim() ->Trims white space from both ends of a String (the front and back) but NOT anything in the String such as the middle 
+example: "  aa".trim() returns aa 
+"aaaa b".trim() returns aaa b
