@@ -1,0 +1,11 @@
+1) true || false -> true
+2) false || true -> true
+4) true || true ->true
+5) false || false ->false
+
+1) true && true ->true
+2) false && false ->false
+3) true && false ->false
+4) false && true ->false
+
+Short-circuit evaluation: When false is evaluated in an expression the compiler doesn't check further 
