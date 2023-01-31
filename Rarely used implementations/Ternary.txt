@@ -1,0 +1,12 @@
+Ternary is like an if statement with different formatting:
+1) Short-hand
+2) Simple Syntax
+
+Example:
+condition ? expression if condition value is true : expression if condition value is false
+
+int ans = x > y ? return x : return y;
+Returns a value
+
+** Note
+1) Don't type return because value is already returned from the evaluation
