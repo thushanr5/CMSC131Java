@@ -1,0 +1,15 @@
+The format of the Main class is... 
+public static void Main(String[]args){ //do something.. }
+Types: 
+1)String 
+2)Int 
+3)Float 
+4)Char 
+5)Boolean 
+Comments: 
+// Single line 
+/* Multi line comment */
+Errors: Compile time errors: 
+Syntax errors caught by compiler, 
+type error misuse of types 
+Runtime errors (happen when you run the program such an arithmetic exception (dividing by 0) or wrong outputs due to mistakes in the program)
