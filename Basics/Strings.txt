@@ -23,3 +23,7 @@ If equal then returns 0 e.g. s.compareTo(s)
 10) .trim() ->Trims white space from both ends of a String (the front and back) but NOT anything in the String such as the middle 
 example: "  aa".trim() returns aa 
 "aaaa b".trim() returns aaa b
+
+11) .isEmpty() ->Returns if a string is empty 
+"a".isEmpty() ->Returns false
+"".isEmpty() ->Returns true
