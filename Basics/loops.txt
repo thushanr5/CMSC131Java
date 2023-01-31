@@ -1,0 +1,22 @@
+Types of loops: 1) While loop 2) Do while loop: Has at least one iteration because do goes before reaching the while 3) For loop: For x amount of iterations do this... 4) For each loop: Iterating through arrays or arraylists Break exits a loop Continue skips an iteration of a loop to the next itereation Continue and break can only be used inside of a loop or a switch statement 
+Examples of each loop: 
+1) while(true){ //do 
+  this... }
+  
+2) do
+{ 
+//Cooking and cleaning
+}
+while(true); 
+
+3) for(int x = 0; x<10; x++)
+{ 
+System.out.println(x);
+}
+
+4) for(int el : arr)
+{ 
+System.out.println(el);
+}
+
+
