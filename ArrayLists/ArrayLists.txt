@@ -1,0 +1,42 @@
+ArrayLists ->Arraylists are like arrays except their sizes can be modified
+
+import java.util.ArrayList; ->Import the ArrayList class in order to use it
+
+ArrayList<type> name = new ArrayList<type>();
+
+example:
+ArrayList<String> cars = new ArrayList<String>();
+cars.add("volvo");
+cars.add("Honda");
+cars.add("Toyota");
+
+cars.get(0) -> Returns the element at the 0th position
+
+cars.remove(0) ->Specify the index to remove from the ArrayList
+
+cars.clear() ->Removes all elements of the ArrayList
+
+cars.size() ->Returns the size of the ArrayList
+
+cars.set(0, "Lamborghini") ->Set the 0th position of the ArrayList to store Lamborghini 
+**This causes a shift in the ArrayList: every element moves nth+1 position 
+
+For all types -> Use the Wrapper class int -> Integer, char -> Character
+
+If sorting numerically or alphabetically use 
+import java.util.Collections;
+
+Collections.sort(cars); Sorts cars alphabetically
+
+ ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+    myNumbers.add(33);
+    myNumbers.add(15);
+    myNumbers.add(20);
+    myNumbers.add(34);
+    myNumbers.add(8);
+    myNumbers.add(12);
+
+    Collections.sort(myNumbers);
+
+Sorts myNumbers numerically
+
