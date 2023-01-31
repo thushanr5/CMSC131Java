@@ -18,6 +18,8 @@ cars.clear() ->Removes all elements of the ArrayList
 
 cars.size() ->Returns the size of the ArrayList
 
+cars.toArray() ->Transforms the ArrayList to an Array
+
 cars.set(0, "Lamborghini") ->Set the 0th position of the ArrayList to store Lamborghini 
 **This causes a shift in the ArrayList: every element moves nth+1 position 
 
