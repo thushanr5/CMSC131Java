@@ -3,7 +3,8 @@
 public class Earth {
 	
 	public static void main(String[]args) {
-		Human Tom = new Human();
+		Human Tom;
+		Tom = new Human(); //Instance Variable
 		
 		Tom.age= 5;
 		Tom.eyeColor = "brown";
