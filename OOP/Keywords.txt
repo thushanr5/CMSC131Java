@@ -1,6 +1,21 @@
 1) Private: CANNOT be used outside of the class and must be used locally: within the class
 2) Public: CAN be used inside of the class and outside of the class
 3) Protected: 
+4) this: Variable pointing to the current object 
+Stores object from class into this 
+5) Constructor: To construct an object and assign values to the object's members
+When having the instance variables and local variables of the same name the compiler doesn't get confused
+6) Instance Variable: Variables declared at the top outside of methods
+When creating objects, you are creating an instance 
+Example:
+class Student
+{
+String studentName;
+int studentScore;
+}
+Student student1 = new Student();
+Student student2 = new Student();
+student1.studentName = "John"; -> Instance variable used John
 
 If different packages, then must have an access modifier for the class
 
