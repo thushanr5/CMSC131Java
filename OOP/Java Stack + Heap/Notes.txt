@@ -1,0 +1,5 @@
+1) When running computer, there are two memory locations: 1: Stack, 2: Heap
+2)
+3)
+4)
+5)
