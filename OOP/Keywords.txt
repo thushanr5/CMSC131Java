@@ -1,0 +1,10 @@
+1) Private: CANNOT be used outside of the class and must be used locally: within the class
+2) Public: CAN be used inside of the class and outside of the class
+3) Protected: 
+
+If different packages, then must have an access modifier for the class
+
+static -> Accesible to the class with the keyword static, if invoking a method in a different class you need static
+If non-static then you need to instantiate an object in order to call the method
+
+Static is accesible to all objects/members within the class and can be accessed without creating an object of a class
