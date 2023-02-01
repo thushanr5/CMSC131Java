@@ -1,5 +1,26 @@
-1) When running computer, there are two memory locations: 1: Stack, 2: Heap
-2)
-3)
-4)
-5)
+1)When running computer, there are two memory locations: 1: Stack, 2: Heap
+
+Stack elimnates containers when finished compiling it such after compiling a method
+
+2)Stack -> Container of containers, each function has its own memory location and each variable has its own memory location within a container
+
+3)Heap -> Stores memory address for every function and variable
+Example: Car myCar = new Car();  myCar doesn't actually hold myCar but rather myCar refers/points to the car object created in memory
+
+4)Garbage collectino is a proccess that runs in the heap and looks for variables that don't get pointed to and eliminates them to save space in memory
+
+5)Instance variable is a variable that belongs to a particular instance and its state can be modified
+
+Summary Example:
+
+class Engine{
+Car myCar = new Car();
+Engine bigEngine = new Engine();
+myCar.bigEngine -> Refers to the memory adress of big engine
+}
+
+class Car{
+  int hp;
+  Engine myEngine;
+
+}
