@@ -5,7 +5,7 @@
 Stores object from class into this 
 5) Constructor: To construct an object and assign values to the object's members
 When having the instance variables and local variables of the same name the compiler doesn't get confused
-6) Instance Variable: Variables declared at the top outside of methods
+6) Instance Variable: Variables declared at the top outside of methods, used to access the instance variable
 When creating objects, you are creating an instance 
 Example:
 class Student
