@@ -7,6 +7,8 @@ Stores object from class into this
 When having the instance variables and local variables of the same name the compiler doesn't get confused
 6) Instance Variable: Variables declared at the top outside of methods, used to access the instance variable
 When creating objects, you are creating an instance 
+7) Interfaces are named after their functionality
+Interfaces are methods that don't have bodies
 Example:
 class Student
 {
