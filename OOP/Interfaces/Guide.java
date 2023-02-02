@@ -12,7 +12,7 @@ public class Guide extends Trip implements Meal{
         return (0.012 * this.moneyLeftDollars);
     }
 
-
+    @Override
     public void eat(){
         System.out.println("The dinner " + this.nameOfPerson + " had was Hoppers");
     }
