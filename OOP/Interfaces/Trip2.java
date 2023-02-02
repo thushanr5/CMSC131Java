@@ -4,7 +4,7 @@ public class Trip2 extends Guide implements Meal{
         super(nameOfPerson,currency,age,moneyLeftDollars);
     }
 
-    @Override
+ 
     public void eat(){
         System.out.println("The dinner " + this.nameOfPerson + " had was rolls");
     }
