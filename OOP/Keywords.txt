@@ -12,6 +12,7 @@ Interfaces are methods that don't have bodies
 8) Overloading: Overloading a constructor means have multiple constructors (2 or more) with the same method method name but different parameters
 9) Override: Sub class having the same name as the Parent class. The symbol @Override is used 
 10) Mutator method: Mutator methods change object's properties
+11) Accesor methods: Returns value of private variables
 Example:
 class Student
 {
