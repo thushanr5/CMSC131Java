@@ -9,6 +9,8 @@ When having the instance variables and local variables of the same name the comp
 When creating objects, you are creating an instance 
 7) Interfaces are named after their functionality
 Interfaces are methods that don't have bodies
+8) Overloading: Overloading a constructor means have multiple constructors (2 or more) with the same method method name but different parameters
+9) Override: Sub class having the same name as the Parent class. The symbol @Override is used 
 Example:
 class Student
 {
