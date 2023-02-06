@@ -47,5 +47,3 @@ switch(switchValue){
     System.out.println("The value was neither a 1,2,3,4,5");
     break;
 }
-
-  
