@@ -7,7 +7,6 @@ public class GreatestCommonDivisor {
                    if(first % firstNum == 0 && second % secondNum ==0)
                         if(firstNum > maxNum)
                             maxNum = firstNum;
-                        break;
                }
             }
             return maxNum;
